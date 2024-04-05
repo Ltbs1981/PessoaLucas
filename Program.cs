@@ -6,7 +6,8 @@ namespace PessoaLucas
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Pessoa p1 = new Pessoa("Lucas", 33, 1.50);
+            p1.Apresentar();
         }
     }
 }
