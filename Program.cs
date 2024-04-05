@@ -8,6 +8,9 @@ namespace PessoaLucas
         {
             Pessoa p1 = new Pessoa("Lucas", 33, 1.50);
             p1.Apresentar();
+            Carro c1 = new Carro("Fiat","Vermelho", 2008);
+            c1.ExibirCarro();
+
         }
     }
 }
